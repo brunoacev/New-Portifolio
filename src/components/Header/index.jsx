@@ -7,7 +7,7 @@ import Link from "next/link";
 const HeaderContainer = () => {
   return (
     <HeaderSection className="header">
-      <section>
+      <section className="logo">
         <DiCssdeck />
       </section>
       <nav>
@@ -17,7 +17,7 @@ const HeaderContainer = () => {
         <a href="#about">Sobre</a>
         <a href="#portfolio">Projetos</a>
       </nav>
-      <section>
+      <section className="icons">
         <a
           href="http://github.com/brunoacev"
           target="_blank"

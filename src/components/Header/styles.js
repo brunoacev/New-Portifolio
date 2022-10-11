@@ -22,11 +22,53 @@ export const HeaderSection = styled.section`
       font-size: 15px;
       margin: 0 10px;
       cursor: pointer;
-      
 
       &:hover {
         color: ${({ theme }) => theme.textColorDefault};
       }
+    }
+  }
+
+  @media (max-width: 800px) {
+    display: flex;
+    margin-left: 90px;
+  }
+
+  @media (max-width: 414px) {
+    nav {
+      position: relative;
+      right: -100px;
+      font-weight: bold;
+    }
+
+    .logo {
+      position: relative;
+      left: -10px;
+    }
+
+    .icons {
+      position: relative;
+      right: -200px;
+      display: flex;
+    }
+  }
+
+  @media (max-width: 375px) {
+    nav {
+      position: relative;
+      right: -90px;
+      font-weight: bold;
+    }
+
+    .logo {
+      position: relative;
+      left: -10px;
+    }
+
+    .icons {
+      position: relative;
+      right: -200px;
+      display: flex;
     }
   }
 `;

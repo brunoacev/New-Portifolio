@@ -38,10 +38,77 @@ export const MainContainer = styled.section`
   figure {
     max-width: 300px;
     opacity: 0.8;
-    transition: all 0.5s linear;
 
     img {
       border-radius: 7px;
+    }
+  }
+
+  // Iphone SE
+  @media (max-width: 375px) {
+    figure {
+      width: 250px;
+      position: relative;
+      right: -200px;
+      bottom: -20px;
+    }
+
+    article {
+      position: relative;
+      right: -100px;
+      bottom: -20px;
+
+      p {
+        font-size: 1.5rem;
+        strong {
+          font-size: 1.5rem;
+          font-weight: bold;
+        }
+      }
+    }
+  }
+
+  //Iphone 12 Pro
+  @media (max-width: 390px) {
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    align-items: center;
+    justify-content: center;
+
+    figure {
+      position: relative;
+      right: -150px;
+      bottom: -50px;
+    }
+
+    article {
+      position: relative;
+      right: -150px;
+      text-align: center;
+      top: -10px;
+    }
+  }
+
+  //IPhone XR
+  @media (max-width: 414px) {
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    align-items: center;
+    justify-content: center;
+
+    figure {
+      position: relative;
+      right: -150px;
+      bottom: -50px;
+    }
+
+    article {
+      position: relative;
+      right: -150px;
+      text-align: center;
+      top: -10px;
     }
   }
 `;

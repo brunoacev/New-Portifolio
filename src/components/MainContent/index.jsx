@@ -11,7 +11,7 @@ const MainContent = () => {
         <p>
           <strong>Bruno Azevedo</strong>
           <br />
-          Full-Stack Javascript Developer e Entusiasta da programação!
+          Front-End Javascript Developer
         </p>
         <a href="https://wa.me/+5585985436862" target="_blanck">
           <BsWhatsapp />

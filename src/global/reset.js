@@ -8,7 +8,6 @@ const GlobalStyle = createGlobalStyle`
     box-sizing: border-box;
     font-family: 'Roboto', sans-serif;
     background-color: ${({ theme }) => theme.bgColor};
-
 }
 
 a {

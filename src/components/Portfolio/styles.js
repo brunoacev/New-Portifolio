@@ -53,4 +53,52 @@ export const Container = styled.section`
     height: 70px;
     background-color: #3d3e42;
   }
+
+  // Iphone SE
+  @media (max-width: 375px) {
+    h1 {
+      position: relative;
+      right: -150px;
+    }
+
+    ul {
+      margin-left: 20px;
+      li {
+        padding: 0px 25px;
+        height: 230px;
+      }
+    }
+  }
+
+  //Iphone 12 Pro
+  @media (max-width: 390px) {
+    h1 {
+      position: relative;
+      right: -150px;
+    }
+
+    ul {
+      margin-left: 20px;
+      li {
+        padding: 0px 25px;
+        height: 230px;
+      }
+    }
+  }
+
+  //IPhone XR
+  @media (max-width: 414px) {
+    h1 {
+      position: relative;
+      right: -150px;
+    }
+
+    ul {
+      margin-left: 20px;
+      li {
+        padding: 0px 25px;
+        height: 230px;
+      }
+    }
+  }
 `;

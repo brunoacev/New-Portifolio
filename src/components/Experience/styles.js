@@ -15,6 +15,63 @@ export const Container = styled.section`
     font-weight: 600;
     font-family: "Source Serif Pro", serif;
   }
+
+  // Iphone SE
+  @media (max-width: 375px) {
+    h1 {
+      position: relative;
+      right: -150px;
+    }
+
+    div {
+      span {
+        margin-left: 20px;
+        font-size: 20px;
+      }
+    }
+    section {
+      position: relative;
+      right: -50px;
+    }
+  }
+
+  //Iphone 12 Pro
+  @media (max-width: 390px) {
+    h1 {
+      position: relative;
+      right: -150px;
+    }
+
+    div {
+      span {
+        margin-left: 20px;
+        font-size: 20px;
+      }
+    }
+    section {
+      position: relative;
+      right: -50px;
+    }
+  }
+
+  //IPhone XR
+  @media (max-width: 414px) {
+    h1 {
+      position: relative;
+      right: -150px;
+    }
+
+    div {
+      span {
+        margin-left: 20px;
+        font-size: 20px;
+      }
+    }
+    section {
+      position: relative;
+      right: -50px;
+    }
+  }
 `;
 
 export const BoxItem = styled.div`
@@ -35,17 +92,52 @@ export const BoxItem = styled.div`
 export const Title = styled.h3`
   padding-left: 20px;
   font-size: 1.5rem;
+
+  @media (max-width: 375px) {
+    font-size: 22px;
+  }
+
+  @media (max-width: 390px) {
+    font-size: 22px;
+  }
+  @media (max-width: 414px) {
+    font-size: 22px;
+  }
 `;
 
 export const SubTitle = styled.h4`
   padding-left: 20px;
   margin-top: 6px;
   margin-bottom: 6px;
+
+  @media (max-width: 375px) {
+    font-size: 18px;
+    color: rgba(255, 255, 255, 0.9);
+  }
+
+  @media (max-width: 390px) {
+    font-size: 18px;
+    color: rgba(255, 255, 255, 0.9);
+  }
+  @media (max-width: 414px) {
+    font-size: 20px;
+    color: rgba(255, 255, 255, 0.9);
+  }
 `;
 
 export const Paragraph = styled.p`
   padding-left: 20px;
   color: rgba(255, 255, 255, 0.5);
+
+  @media (max-width: 375px) {
+    font-size: 18px;
+  }
+  @media (max-width: 375px) {
+    font-size: 18px;
+  }
+  @media (max-width: 414px) {
+    font-size: 18px;
+  }
 `;
 
 export const Line = styled.div`

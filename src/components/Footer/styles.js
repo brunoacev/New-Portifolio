@@ -21,4 +21,24 @@ export const Container = styled.section`
     margin-top: 20px;
     font-family: "Source Serif Pro", serif;
   }
+
+  // Iphone SE
+  @media (max-width: 375px) {
+    position: relative;
+    right: -150px;
+    margin-bottom: 50px;
+  }
+
+  //Iphone 12 Pro
+  @media (max-width: 390px) {
+    position: relative;
+    right: -150px;
+  }
+
+  //IPhone XR
+  @media (max-width: 414px) {
+    position: relative;
+    right: -150px;
+    top: -120px;
+  }
 `;

@@ -36,4 +36,52 @@ export const AboutContainer = styled.section`
     position: relative;
     top: 14px;
   }
+
+  // Iphone SE
+  @media (max-width: 375px) {
+    article {
+      h1 {
+        position: relative;
+        right: -50px;
+      }
+      p {
+        position: relative;
+        right: -150px;
+        text-align: justify;
+        text-justify: inter-word;
+      }
+    }
+  }
+
+  //Iphone 12 Pro
+  @media (max-width: 390px) {
+    article {
+      h1 {
+        position: relative;
+        right: -50px;
+      }
+      p {
+        position: relative;
+        right: -150px;
+        text-align: justify;
+        text-justify: inter-word;
+      }
+    }
+  }
+
+  //IPhone XR
+  @media (max-width: 414px) {
+    article {
+      h1 {
+        position: relative;
+        right: -50px;
+      }
+      p {
+        position: relative;
+        right: -150px;
+        text-align: justify;
+        text-justify: inter-word;
+      }
+    }
+  }
 `;

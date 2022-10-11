@@ -36,4 +36,52 @@ export const SkillsSection = styled.section`
       }
     }
   }
+
+  // Iphone SE
+  @media (max-width: 375px) {
+    h1 {
+      position: relative;
+      left: -60px;
+    }
+    ul {
+      position: relative;
+      right: -80px;
+     
+      li{
+        padding: 0 30px;
+      }
+    }
+  }
+
+  //Iphone 12 Pro
+  @media (max-width: 390px) {
+    h1 {
+      position: relative;
+      left: -60px;
+    }
+    ul {
+      position: relative;
+      right: -80px;
+     
+      li{
+        padding: 0 30px;
+      }
+    }
+  }
+
+  //IPhone XR
+  @media (max-width: 414px) {
+    h1 {
+      position: relative;
+      right: -150px;
+    }
+    ul {
+      position: relative;
+      right: -80px;
+     
+      li{
+        padding: 0 30px;
+      }
+    }
+  }
 `;
