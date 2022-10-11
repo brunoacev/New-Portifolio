@@ -4,7 +4,9 @@ export const Container = styled.section`
   color: ${({ theme }) => theme.textColorDefault};
   margin: 100px auto;
   max-width: 780px;
-
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 
   h1 {
     position: relative;
