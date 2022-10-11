@@ -12,4 +12,13 @@ export const Container = styled.section`
     font-weight: 600;
     font-family: "Source Serif Pro", serif;
   }
+
+  p {
+    text-align: center;
+    color: ${({ theme }) => theme.textColorDefault};
+    font-size: 1.5rem;
+    font-weight: normal;
+    margin-top: 20px;
+    font-family: "Source Serif Pro", serif;
+  }
 `;
