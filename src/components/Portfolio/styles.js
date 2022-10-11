@@ -2,9 +2,8 @@ import styled from "styled-components";
 
 export const Container = styled.section`
   color: ${({ theme }) => theme.textColorDefault};
-  margin: 0 auto;
+  margin: 100px auto;
   max-width: 780px;
-  margin-bottom: 130px;
 
   h1 {
     text-align: center;

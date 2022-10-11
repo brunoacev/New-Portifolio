@@ -5,7 +5,7 @@ import { SiNextdotjs } from "react-icons/si";
 
 const Portfolio = () => {
   return (
-    <Container>
+    <Container className="portfolio">
       <h1>Portfólio</h1>
       <ul>
         <li>
@@ -32,6 +32,51 @@ const Portfolio = () => {
           <SiNextdotjs />
           <a
             href="https://github.com/brunoacev/New-Portifolio"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            Acessar
+          </a>
+        </li>
+        <li>
+          <p>
+            MF Digital
+            <br />
+            Projeto para fins didaticos
+          </p>
+          <SiNextdotjs />
+          <a
+            href="https://github.com/brunoacev/MF-Digital"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            Acessar
+          </a>
+        </li>
+        <li>
+          <p>
+            MF Digital
+            <br />
+            Projeto para fins didaticos
+          </p>
+          <SiNextdotjs />
+          <a
+            href="https://github.com/brunoacev/MF-Digital"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            Acessar
+          </a>
+        </li>
+        <li>
+          <p>
+            MF Digital
+            <br />
+            Projeto para fins didaticos
+          </p>
+          <SiNextdotjs />
+          <a
+            href="https://github.com/brunoacev/MF-Digital"
             target="_blank"
             rel="noopener noreferrer"
           >

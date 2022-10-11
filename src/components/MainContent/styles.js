@@ -12,25 +12,19 @@ export const MainContainer = styled.section`
     border-radius: 7px;
     padding: 10px 20px;
     color: #fac86b;
-    display: inline-block;
     margin-top: 20px;
     transition: all 0.5s linear;
     position: relative;
     bottom: -50px;
-  }
 
-  a.visible {
-    opacity: 1;
-    bottom: 0;
+    svg {
+      margin-right: 5px;
+    }
   }
 
   p {
     color: ${({ theme }) => theme.textColorDefault};
     font-size: 2rem;
-    opacity: 0;
-    transition: all 0.5s linear;
-    position: relative;
-    top: -50px;
 
     strong {
       color: #fac86b;
@@ -41,22 +35,13 @@ export const MainContainer = styled.section`
     }
   }
 
-  p.visible {
-    opacity: 1;
-    top: 0;
-  }
-
   figure {
     max-width: 300px;
-    opacity: 0.5;
+    opacity: 0.8;
     transition: all 0.5s linear;
 
     img {
       border-radius: 7px;
     }
-  }
-
-  figure.visible {
-    opacity: 1;
   }
 `;

@@ -2,21 +2,37 @@ import React from "react";
 import { HeaderSection } from "./styles";
 import { DiCssdeck } from "react-icons/di";
 import { BsLinkedin, BsGithub, BsDropletFill } from "react-icons/bs";
+import Link from "next/link";
 
 const HeaderContainer = () => {
   return (
-    <HeaderSection>
+    <HeaderSection className="header">
       <section>
         <DiCssdeck />
       </section>
       <nav>
-        <a href="/">Sobre</a>
-        <a href="/">Projetos</a>
-        <a href="/">Contato</a>
+        <Link href="#contact" scroll={true}>
+          <a>Contato</a>
+        </Link>
+        <a href="#about">Sobre</a>
+        <a href="#portfolio">Projetos</a>
       </nav>
       <section>
-        <BsLinkedin />
-        <BsGithub />
+        <a
+          href="http://github.com/brunoacev"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <BsGithub />
+        </a>
+
+        <a
+          href="https://www.linkedin.com/in/bruno-azevedo-02736bb2/"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <BsLinkedin />
+        </a>
       </section>
     </HeaderSection>
   );

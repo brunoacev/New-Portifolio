@@ -18,7 +18,7 @@ import sql from "../../../public/images/sql.png";
 
 const Skills = () => {
   return (
-    <SkillsSection>
+    <SkillsSection className="skills">
       <h1>Skills</h1>
       <ul>
         <li>

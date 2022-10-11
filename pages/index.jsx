@@ -1,5 +1,8 @@
 import Head from "next/head";
 import About from "../src/components/About";
+import Contact from "../src/components/Contact";
+import Experience from "../src/components/Experience";
+import Footer from "../src/components/Footer";
 import Header from "../src/components/Header";
 import MainContent from "../src/components/MainContent";
 import Portfolio from "../src/components/Portfolio";
@@ -19,6 +22,9 @@ export default function Home() {
         <About />
         <Skills />
         <Portfolio />
+        <Experience />
+        <Contact />
+        <Footer />
       </main>
     </div>
   );
