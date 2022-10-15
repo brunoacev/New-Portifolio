@@ -82,9 +82,8 @@ export const BoxItem = styled.div`
     margin-right: 20px;
     span {
       background-color: #5c5d61;
-      padding: 7.5px 15px;
+      padding: 7.5px 30px;
       height: 30px;
-      display: inline-block;
     }
   }
 `;

@@ -10,13 +10,13 @@ const HeaderContainer = () => {
       <section className="logo">
         <DiCssdeck />
       </section>
-      <nav>
+      {/* <nav>
         <Link href="#contact" scroll={true}>
           <a>Contato</a>
         </Link>
         <a href="#about">Sobre</a>
         <a href="#portfolio">Projetos</a>
-      </nav>
+      </nav> */}
       <section className="icons">
         <a
           href="http://github.com/brunoacev"

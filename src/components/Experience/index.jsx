@@ -17,37 +17,33 @@ const Experience = () => {
 
       <BoxItem>
         <div className="arrow">
-          <span>2022</span>
+          <span>2020-2022</span>
         </div>
         <Separetor>
           <Line className="line"></Line>
         </Separetor>
         <section>
-          <Title>Junior Javascrip Developer</Title>
+          <Title>Atendente interno Call Center</Title>
           <SubTitle>Fortaleza, Ceará</SubTitle>
           <Paragraph>
-            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nulla
-            corporis dicta asperiores distinctio placeat minima, assumenda
-            recusandae nam aut dolore non vero totam unde consectetur
-            exercitationem quam laborum perspiciatis iste!
+            Atendimento de Cobrança e SAC Folguista de SupervisãoS
           </Paragraph>
         </section>
       </BoxItem>
       <BoxItem>
         <div className="arrow">
-          <span>2022</span>
+          <span>2016-2019</span>
         </div>
         <Separetor>
           <Line className="line"></Line>
         </Separetor>
         <section>
-          <Title>Junior Javascrip Developer</Title>
+          <Title>Orientador de Estacionamento</Title>
           <SubTitle>Fortaleza, Ceará</SubTitle>
           <Paragraph>
-            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nulla
-            corporis dicta asperiores distinctio placeat minima, assumenda
-            recusandae nam aut dolore non vero totam unde consectetur
-            exercitationem quam laborum perspiciatis iste!
+            Orientação de clientes sobre o funcionamento do estacionamento;
+            Promoção para Operação em Caixa e Atendimento ao público; Folguista
+            de Supervisão diurno e noturno.
           </Paragraph>
         </section>
       </BoxItem>

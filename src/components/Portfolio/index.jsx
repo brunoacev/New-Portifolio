@@ -9,11 +9,7 @@ const Portfolio = () => {
       <h1>Portfólio</h1>
       <ul>
         <li>
-          <p>
-            CRUD
-            <br />
-            Autêntificação de usuários
-          </p>
+          <p>CRUD de usuários</p>
           <FaNode />
           <a
             href="https://github.com/brunoacev/CRUD-NodeJS"
@@ -24,11 +20,7 @@ const Portfolio = () => {
           </a>
         </li>
         <li>
-          <p>
-            Portfólio
-            <br />
-            Projeto responsivo
-          </p>
+          <p>Portfólio Responsivo</p>
           <SiNextdotjs />
           <a
             href="https://github.com/brunoacev/New-Portifolio"
@@ -42,56 +34,10 @@ const Portfolio = () => {
           <p>
             MF Digital
             <br />
-            Projeto para fins didaticos
           </p>
           <SiNextdotjs />
           <a
-            href="https://github.com/brunoacev/MF-Digital"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Acessar
-          </a>
-        </li>
-        <li>
-          <p>
-            MF Digital
-            <br />
-            Projeto para fins didaticos
-          </p>
-          <SiNextdotjs />
-          <a
-            href="https://github.com/brunoacev/MF-Digital"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Acessar
-          </a>
-        </li>
-        <li>
-          <p>
-            MF Digital
-            <br />
-            Projeto para fins didaticos
-          </p>
-          <SiNextdotjs />
-          <a
-            href="https://github.com/brunoacev/MF-Digital"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Acessar
-          </a>
-        </li>
-        <li>
-          <p>
-            MF Digital
-            <br />
-            Projeto para fins didaticos
-          </p>
-          <SiNextdotjs />
-          <a
-            href="https://github.com/brunoacev/MF-Digital"
+            href="https://github.com/brunoacev/Projeto-MF-Digital"
             target="_blank"
             rel="noopener noreferrer"
           >
